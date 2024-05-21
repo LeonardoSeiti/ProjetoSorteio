@@ -25,7 +25,7 @@ public class SorteioApplication {
 		SpringApplication.run(SorteioApplication.class, args);
 	}
 	public String home() {
-		return "Bem vindo ao projeto sorteio!, para mais informações acesse a documentação da API em /swagger-ui.html";
+		return "Bem vindo ao projeto sorteio!, para mais informações acesse a documentação da API em http://localhost:8080/swagger-ui/index.html#/Dados/docs";
 	}
 
 }
