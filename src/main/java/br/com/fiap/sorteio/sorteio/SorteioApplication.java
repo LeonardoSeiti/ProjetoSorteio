@@ -29,7 +29,7 @@ public class SorteioApplication {
 	@RequestMapping
 	@ResponseBody
 	public String home() {
-		return "Bem vindo ao projeto sorteio!, para mais informações acesse a documentação da API em http://localhost:8080/swagger-ui/index.html#/Dados/docs";
+		return "Bem vindo ao projeto sorteio!,caso tenha se direcionado para essa página podera seguir os seguintes links para acessar o projeto em: projetosorteio-production.up.railway.app/sorteio/dado ou projetosorteio-production.up.railway.app/sorteio/dado/{que deseja testar essa aplicação} e para mais informações acesse a documentação da API em http://localhost:8080/swagger-ui/index.html#/Dados/docs";
 	}
 
 }
